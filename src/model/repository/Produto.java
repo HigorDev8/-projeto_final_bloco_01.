@@ -1,8 +1,9 @@
-package menu;
+package model.repository;
 
 public abstract class Produto {
+
 	
-	private String nome;
+	protected String nome;
 	private double preco;
 	
 	public Produto(String nome, double preco) {
@@ -18,5 +19,4 @@ public abstract class Produto {
 	public double getPreco() {
 		return preco;
 	}
-	
 }
